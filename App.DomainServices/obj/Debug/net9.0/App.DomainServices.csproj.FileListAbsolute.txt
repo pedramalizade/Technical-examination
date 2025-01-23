@@ -1,0 +1,15 @@
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\bin\Debug\net9.0\App.DomainServices.deps.json
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\bin\Debug\net9.0\App.DomainServices.dll
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\bin\Debug\net9.0\App.DomainServices.pdb
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\bin\Debug\net9.0\App.Domain.Core.dll
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\bin\Debug\net9.0\App.Domain.Core.pdb
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.AssemblyInfo.cs
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.Doma.F9EBD949.Up2Date
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.dll
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\refint\App.DomainServices.dll
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.pdb
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\ref\App.DomainServices.dll

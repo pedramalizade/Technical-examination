@@ -1,0 +1,41 @@
+﻿@using App.Domain.Core.Entities
+
+@model List<Model>
+
+<div class="table-responsive">
+
+    <table class="table-Cars" asp-action="Index">
+        <thead>
+            <tr>
+
+                <td>لیست مدل خودرو</td>
+                <td>  <a asp-action="Create" class="btn btn-secondary" type="button">ایجاد مدل جدید </a></td>
+            </tr>
+            <tr>
+                <th>شناسه</th>
+                <th>نام</th>
+                <th>عملیات</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Title</td>
+
+                    <td>
+                        <a class="btn btn-success" asp-controller="Model" asp-action="Preview" asp-route-id="@item.Id">نمایش</a>
+                        <a class="btn btn-danger" asp-controller="Model" asp-action="Delete" asp-route-id="@item.Id">حذف</a>
+                        <a class="btn btn-warning" asp-controller="Model" asp-action="Update" asp-route-id="@item.Id">ویرایش</a>
+                    </td>
+                </tr>
+                }
+        </tbody>
+        </tbody>
+
+    </table>
+
+
+</div>

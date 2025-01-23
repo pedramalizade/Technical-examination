@@ -1,0 +1,65 @@
+﻿@using App.Domain.Core.DTOs
+@using App.Domain.Core.Enums
+@using Framework
+@model List<GetListDto>
+<div class="table-responsive">
+
+    <table class="table-Cars">
+
+        <thead>
+            <tr>
+
+                <td>لیست رزرو شده معاینه فنی</td>
+            </tr>
+            <tr>
+
+                <th>شناسه</th>
+                <th>تاریخ رزرو</th>
+                <th>مدل </th>
+                <th>برند</th>
+                <th>پلاک</th>
+                <th>تاریخ تولید</th>
+                <th>نام</th>
+                <th>نام خانوادگی</th>
+                <th>کد ملی</th>
+                <th>موبایل</th>
+                <th>آدرس </th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.TechnicalInspection.ToString("yyyy-MM-dd")</td>
+                    <td>@item.ModelName</td>
+                    <td>@EnumExtensionMethods.GetEnumDisplayName(item.BrandCar)</td>
+                    <td>@item.LicensePlateCar</td>
+                    <td>@item.YearOfProduction</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.NationalCode</td>
+                    <td>@item.Mobile</td>
+                    <td>@item.Address</td>
+                    <td>@EnumExtensionMethods.GetEnumDisplayName(item.Status)</td>
+
+                    <td>
+
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <a class="btn btn-success" asp-controller="OPrator" asp-action="Confirmation" value="@UserStatusCarEnum.aproved" asp-route-id="@item.Id">تایید</a>
+                        <a class="btn btn-danger" asp-controller="OPrator" asp-action="Rejected" value="@UserStatusCarEnum.Rejected" asp-route-id="@item.Id">رد</a>
+
+
+
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+
+    </table>
+</div>

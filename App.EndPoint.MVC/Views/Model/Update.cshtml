@@ -1,0 +1,22 @@
+﻿@using App.Domain.Core.Entities
+@model Model
+<div class="container px-5 my-5">
+
+    <form method="post" asp-action="Update">
+
+
+        <input name="Title" type="text" placeholder="مدل خودرو" data-sb-validations="required" value="@Model.Title" />
+
+        <button type="send" class="Transfer-btn">ثبت ویرایش</button>
+        @if (ViewBag.SuccessMessage != null)
+        {
+            <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+        }
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+        }
+
+    </form>
+</div>
+

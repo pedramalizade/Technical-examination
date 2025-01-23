@@ -1,0 +1,20 @@
+﻿<div class="container px-5 my-5">
+
+    <form method="post" asp-action="Create">
+
+
+        <input name="Title" type="text" placeholder="مدل خودرو" data-sb-validations="required" />
+
+        <button type="send" class="Transfer-btn">ثبت</button>
+        @if (ViewBag.SuccessMessage != null)
+        {
+            <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+        }
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+        }
+    </form>
+</div>
+
+

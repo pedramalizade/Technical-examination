@@ -1,0 +1,16 @@
+﻿@using App.Domain.Core.Entities
+@model Model
+<div class="container px-5 my-5">
+
+    <form method="post" asp-action="Preview">
+
+
+        <input disabled name="Id" type="text" placeholder="شناسه" data-sb-validations="required" value="@Model.Id" />
+
+
+        <input disabled name="Title" type="text" placeholder="مدل خودرو" data-sb-validations="required" value="@Model.Title" />
+
+    </form>
+</div>
+
+

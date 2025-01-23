@@ -1,0 +1,65 @@
+﻿@using App.Domain.Core.Entities
+@using App.Domain.Core.Enums
+@model UserCarViewModel
+<div class="page">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <form class="UserCar-form" method="post" asp-action="Create">
+
+        <h4>فرم رزرو معاینه فنی</h4><br>
+
+
+        <input placeholder="نام" asp-for="CarModel.FirstName"><br>
+        <span class="text-danger" asp-validation-for="CarModel.FirstName"></span>
+
+        <input placeholder="نام خانوادگی" asp-for="CarModel.LastName"><br>
+        <span class="text-danger" asp-validation-for="CarModel.LastName"></span>
+
+        <input placeholder="کد ملی" asp-for="CarModel.NationalCode"><br>
+        <span class="text-danger" asp-validation-for="CarModel.NationalCode"></span>
+
+        <input placeholder="موبایل" asp-for="CarModel.Mobile"><br>
+        <span class="text-danger" asp-validation-for="CarModel.Mobile"></span>
+
+        <input placeholder="شماره پلاک" asp-for="CarModel.LicensePlateCar"><br>
+        <span class="text-danger" asp-validation-for="CarModel.LicensePlateCar"></span>
+
+        <input placeholder="سال تولید خودرو" asp-for="CarModel.YearOfProduction" type="number" value=""><br>
+        <span class="text-danger" asp-validation-for="CarModel.YearOfProduction"></span>
+
+        <input placeholder="آدرس" asp-for="CarModel.Address"><br>
+        <span class="text-danger" asp-validation-for="CarModel.Address"></span>
+
+        <input placeholder="تاریخ رزرو" asp-for="CarModel.TechnicalInspection" type="date" value=""><br>
+        <span class="text-danger" asp-validation-for="CarModel.TechnicalInspection"></span>
+
+        <select placeholder="برند خودرو" asp-for="CarModel.BrandCar" asp-items="Html.GetEnumSelectList<UserBrandCarEnum>()"><option value="">انتخاب کنید</option></select>
+        <span class="text-danger" asp-validation-for="CarModel.BrandCar"></span>
+
+        <select asp-for="CarModel.ModelId" placeholder="مدل خودرو">
+
+            <option value="">انتخاب کنید</option>
+            @foreach (var modelcar in Model.Models)
+            {
+                <option value="@modelcar.Id">@modelcar.Title</option>
+
+
+            }
+        </select>
+
+        <span class="text-danger" asp-validation-for="CarModel.ModelId"></span>
+
+        <button type="send" class="Transfer-btn">ثبت</button>
+        @if (ViewBag.SuccessMessage != null)
+        {
+            <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+        }
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+        }
+    </form>
+</div>
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
