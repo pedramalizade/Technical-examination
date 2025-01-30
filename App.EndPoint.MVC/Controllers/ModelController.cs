@@ -2,7 +2,7 @@
 using App.Domain.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace App.EndPoint.MVC.Controllers
+namespace App.EndPoints.Mvc.Car.Controllers
 {
     public class ModelController : Controller
     {
@@ -12,13 +12,13 @@ namespace App.EndPoint.MVC.Controllers
         {
             _CarModelAppServices = carModelAppServices;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index(CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
-            var models = _CarModelAppServices.CarModels();
+            var models = await _CarModelAppServices.CarModels(cToken);
             return View(models);
         }
         [HttpGet]
@@ -33,13 +33,13 @@ namespace App.EndPoint.MVC.Controllers
 
         }
         [HttpPost]
-        public IActionResult Create(Model model)
+        public async Task<IActionResult> Create(Model model, CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
-            var result = _CarModelAppServices.CreateModel(model);
+            var result = await _CarModelAppServices.CreateModel(model, cToken);
             if (result.IsSuccess)
             {
                 ViewBag.SuccessMessage = result.IsMessage;
@@ -53,13 +53,13 @@ namespace App.EndPoint.MVC.Controllers
 
         }
         [HttpGet]
-        public IActionResult Preview(int id)
+        public async Task<IActionResult> Preview(int id, CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
-            var model = _CarModelAppServices.GetModelById(id);
+            var model = await _CarModelAppServices.GetModelById(id, cToken);
 
 
 
@@ -67,36 +67,36 @@ namespace App.EndPoint.MVC.Controllers
 
         }
         [HttpGet]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id, CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
-            _CarModelAppServices.DeleteModel(id);
+            await _CarModelAppServices.DeleteModel(id, cToken);
             return RedirectToAction("Index");
 
         }
         [HttpGet]
-        public IActionResult Update(int id)
+        public async Task<IActionResult> Update(int id, CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
-            var model = _CarModelAppServices.GetModelById(id);
+            var model = await _CarModelAppServices.GetModelById(id, cToken);
 
 
             return View(model);
         }
         [HttpPost]
-        public IActionResult Update(Model model)
+        public async Task<IActionResult> Update(Model model, CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
-            var result = _CarModelAppServices.UpdateModel(model);
+            var result = await _CarModelAppServices.UpdateModel(model, cToken);
             if (result.IsSuccess)
             {
                 ViewBag.SuccessMessage = result.IsMessage;

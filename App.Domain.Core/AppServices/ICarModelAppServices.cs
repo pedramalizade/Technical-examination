@@ -10,10 +10,10 @@ namespace App.Domain.Core.AppServices
 {
     public interface ICarModelAppServices
     {
-        public List<Model> CarModels();
-        public Resultt CreateModel(Model model);
-        public Model GetModelById(int id);
-        public bool DeleteModel(int id);
-        public Resultt UpdateModel(Model model);
+        public Task<List<Model>> CarModels(CancellationToken cancellationToken);
+        public Task<Resultt> CreateModel(Model model, CancellationToken cancellationToken);
+        public Task<Model> GetModelById(int id, CancellationToken cancellationToken);
+        public Task<bool> DeleteModel(int id, CancellationToken cancellationToken);
+        public Task<Resultt> UpdateModel(Model model, CancellationToken cancellationToken);
     }
 }

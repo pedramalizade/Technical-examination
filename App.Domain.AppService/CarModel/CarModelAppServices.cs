@@ -18,14 +18,14 @@ namespace App.Domain.AppService.CarModel
         {
             _CarModelServices = carModelServices;
         }
-        public List<Model> CarModels()
+        public async Task<List<Model>> CarModels(CancellationToken cancellationToken)
         {
-            return _CarModelServices.CarModels();
+            return await _CarModelServices.CarModels(cancellationToken);
         }
 
-        public Resultt CreateModel(Model model)
+        public async Task<Resultt> CreateModel(Model model, CancellationToken cancellationToken)
         {
-            if (_CarModelServices.GetCModel(model.Title))
+            if (await _CarModelServices.GetCModel(model.Title, cancellationToken))
             {
                 return new Resultt(false, "مدل خودرو موجود می باشد.");
 
@@ -39,24 +39,24 @@ namespace App.Domain.AppService.CarModel
                     Title = model.Title,
 
                 };
-                _CarModelServices.CreateModel(model1);
+                await _CarModelServices.CreateModel(model1, cancellationToken);
                 return new Resultt(true, "مدل خودرو با موفقیت اضافه شد.");
             }
         }
 
-        public bool DeleteModel(int id)
+        public async Task<bool> DeleteModel(int id, CancellationToken cancellationToken)
         {
-            return _CarModelServices.DeleteModel(id);
+            return await _CarModelServices.DeleteModel(id, cancellationToken);
         }
 
-        public Model GetModelById(int id)
+        public async Task<Model> GetModelById(int id, CancellationToken cancellationToken)
         {
-            return _CarModelServices.GetModelById(id);
+            return await _CarModelServices.GetModelById(id, cancellationToken);
         }
 
-        public Resultt UpdateModel(Model model)
+        public async Task<Resultt> UpdateModel(Model model, CancellationToken cancellationToken)
         {
-            if (_CarModelServices.GetCModel(model.Title))
+            if (await _CarModelServices.GetCModel(model.Title, cancellationToken))
             {
                 return new Resultt(false, "مدل خودرو موجود می باشد.");
 
@@ -64,7 +64,7 @@ namespace App.Domain.AppService.CarModel
 
             else
             {
-                _CarModelServices.UpdateModel(model);
+               await _CarModelServices.UpdateModel(model, cancellationToken);
                 return new Resultt(true, "ویرایش با موفقیت انجام شد.");
             }
         }

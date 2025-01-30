@@ -18,29 +18,29 @@ namespace App.DomainServices.OPrator
         {
             _OPratorRepository = oPratorRepository;
         }
-        public bool Confirmation(int id)
+        public async Task<bool> Confirmation(int id, CancellationToken cancellationToken)
         {
-            return _OPratorRepository.Confirmation(id);
+            return await _OPratorRepository.Confirmation(id,cancellationToken);
         }
 
-        public CarOfUser GetById(int id)
+        public async Task<CarOfUser> GetById(int id, CancellationToken cancellationToken)
         {
-            return _OPratorRepository.GetById(id);
+            return await _OPratorRepository.GetById(id, cancellationToken);
         }
 
-        public List<GetListDto> GetList()
+        public async Task<List<GetListDto>> GetList(CancellationToken cancellationToken)
         {
-            return _OPratorRepository.GetList();
+            return await _OPratorRepository.GetList(cancellationToken);
         }
 
-        public Admin Login(string username, string password)
+        public async Task<Admin> Login(string username, string password, CancellationToken cancellationToken)
         {
-            return _OPratorRepository.Login(username, password);
+            return await _OPratorRepository.Login(username, password, cancellationToken);
         }
 
-        public bool Rejected(int id)
+        public async Task<bool> Rejected(int id, CancellationToken cancellationToken)
         {
-            return _OPratorRepository.Rejected(id);
+            return await _OPratorRepository.Rejected(id, cancellationToken);
         }
     }
 }

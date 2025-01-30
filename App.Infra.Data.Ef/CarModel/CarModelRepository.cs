@@ -18,39 +18,39 @@ namespace App.Infra.Data.Ef.CarModel
         {
             _appDbContext = appDbContext;
         }
-        public List<Model> CarModels()
+        public async Task<List<Model>> CarModels(CancellationToken cancellationToken)
         {
-            return _appDbContext.Models.AsNoTracking().ToList();
+            return await _appDbContext.Models.AsNoTracking().ToListAsync();
         }
 
-        public bool CreateModel(Model model)
+        public async Task<bool> CreateModel(Model model, CancellationToken cancellationToken)
         {
-            _appDbContext.Models.Add(model);
-            _appDbContext.SaveChanges();
+            await _appDbContext.Models.AddAsync(model);
+            await _appDbContext.SaveChangesAsync();
             return true;
         }
 
-        public bool DeleteModel(int id)
+        public async Task<bool> DeleteModel(int id, CancellationToken cancellationToken)
         {
-            var model = _appDbContext.Models.FirstOrDefault(x => x.Id == id);
+            var model = await _appDbContext.Models.FirstOrDefaultAsync(x => x.Id == id);
             _appDbContext.Models.Remove(model);
             _appDbContext.SaveChanges();
             return true;
         }
 
-        public bool GetCModel(string modelTitle)
+        public async Task<bool> GetCModel(string modelTitle, CancellationToken cancellationToken)
         {
-            return _appDbContext.Models.AsNoTracking().Any(t => t.Title == modelTitle);
+            return await _appDbContext.Models.AsNoTracking().AnyAsync(t => t.Title == modelTitle);
         }
 
-        public Model GetModelById(int id)
+        public async Task<Model> GetModelById(int id, CancellationToken cancellationToken)
         {
-            return _appDbContext.Models.AsNoTracking().FirstOrDefault(x => x.Id == id);
+            return await _appDbContext.Models.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public bool UpdateModel(Model model)
+        public async Task<bool> UpdateModel(Model model, CancellationToken cancellationToken)
         {
-            var model1 = _appDbContext.Models.FirstOrDefault(x => x.Id == model.Id);
+            var model1 = await _appDbContext.Models.FirstOrDefaultAsync(x => x.Id == model.Id);
             model1.Id = model.Id;
             model1.Title = model.Title;
             _appDbContext.SaveChanges();

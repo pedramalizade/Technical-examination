@@ -19,38 +19,38 @@ namespace App.Domain.AppService.OPrator
         {
             _OPratorServices = oPratorServices;
         }
-        public Resultt Confirmation(int id)
+        public async Task<Resultt> Confirmation(int id, CancellationToken cancellationToken)
         {
-            _OPratorServices.Confirmation(id);
+           await _OPratorServices.Confirmation(id, cancellationToken);
             return new Resultt(true, "تایید شد.");
         }
 
-        public CarOfUser GetById(int id)
+        public async Task<CarOfUser> GetById(int id, CancellationToken cancellationToken)
         {
-            return _OPratorServices.GetById(id);
+            return await _OPratorServices.GetById(id, cancellationToken);
         }
 
-        public List<GetListDto> GetList()
+        public async Task<List<GetListDto>> GetList(CancellationToken cancellationToken)
         {
-            return _OPratorServices.GetList();
+            return await _OPratorServices.GetList(cancellationToken);
         }
 
-        public Resultt Login(string username, string password)
+        public async Task<Resultt> Login(string username, string password, CancellationToken cancellationToken)
         {
-            if (_OPratorServices.Login(username, password) == null)
+            if (await _OPratorServices.Login(username, password, cancellationToken) == null)
             {
                 return new Resultt(false, "نام کاربری یا رمز عبور اشتباه است.");
             }
             else
             {
-                _OPratorServices.Login(username, password);
+                await _OPratorServices.Login(username, password, cancellationToken);
                 return new Resultt(true, "خوش آمدید.");
             }
         }
 
-        public Resultt Rejected(int id)
+        public async Task<Resultt> Rejected(int id, CancellationToken cancellationToken)
         {
-            _OPratorServices.Rejected(id);
+            await _OPratorServices.Rejected(id, cancellationToken);
             return new Resultt(true, "رد شد.");
         }
     }

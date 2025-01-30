@@ -1,6 +1,7 @@
 ﻿using App.Domain.Core.AppServices;
 using App.Domain.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading;
 
 namespace App.EndPoints.Api.Car.Controllers
 {
@@ -17,10 +18,10 @@ namespace App.EndPoints.Api.Car.Controllers
             // _CarModelAppServices = carModelAppServices;
         }
         [HttpPost("[action]")]
-        public string Create(CarOfUser model)
+        public async Task<string> Create(CarOfUser model, CancellationToken cancellationToken)
         {
 
-            var result = _UserAppServices.CreateUserCar(model);
+            var result =await _UserAppServices.CreateUserCar(model, cancellationToken);
             if (result.IsSuccess)
             {
 

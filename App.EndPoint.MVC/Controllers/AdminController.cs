@@ -1,13 +1,13 @@
 ﻿using App.Domain.Core.AppServices;
 using Microsoft.AspNetCore.Mvc;
 
-namespace App.EndPoint.MVC.Controllers
+namespace App.EndPoints.Mvc.Car.Controllers
 {
-    public class AdminController : Controller
+    public class OPratorController : Controller
     {
         private readonly IAdminAppServices _OPratorAppServices;
         private readonly ICarModelAppServices _CarModelAppServices;
-        public AdminController(IAdminAppServices oPratorAppServices, ICarModelAppServices carModelAppServices)
+        public OPratorController(IAdminAppServices oPratorAppServices, ICarModelAppServices carModelAppServices)
         {
             _OPratorAppServices = oPratorAppServices;
             _CarModelAppServices = carModelAppServices;
@@ -20,10 +20,10 @@ namespace App.EndPoint.MVC.Controllers
             return View();
         }
 
-        public IActionResult Login(string username, string password)
+        public async Task<IActionResult> Login(string username, string password, CancellationToken cToken)
         {
 
-            var result = _OPratorAppServices.Login(username, password);
+            var result = await _OPratorAppServices.Login(username, password, cToken);
 
             if (result.IsSuccess)
             {
@@ -42,14 +42,14 @@ namespace App.EndPoint.MVC.Controllers
 
         }
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index(CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
 
-            var Cars = _OPratorAppServices.GetList();
+            var Cars = await _OPratorAppServices.GetList(cToken);
 
             return View("ListCars", Cars);
 
@@ -57,13 +57,13 @@ namespace App.EndPoint.MVC.Controllers
         }
 
         [HttpGet]
-        public IActionResult Confirmation(int id)
+        public async Task<IActionResult> Confirmation(int id, CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
-            var result = _OPratorAppServices.Confirmation(id);
+            var result = await _OPratorAppServices.Confirmation(id, cToken);
             if (result.IsSuccess)
             {
 
@@ -75,17 +75,17 @@ namespace App.EndPoint.MVC.Controllers
                 ViewBag.ErrorMessage = result.IsMessage;
 
             }
-            var Cars = _OPratorAppServices.GetList();
+            var Cars = await _OPratorAppServices.GetList(cToken);
             return View("ListCars", Cars);
         }
         [HttpGet]
-        public IActionResult Rejected(int id)
+        public async Task<IActionResult> Rejected(int id, CancellationToken cToken)
         {
             if (!IsLoggedIn())
             {
                 return RedirectToAction("Login", "OPrator");
             }
-            var result = _OPratorAppServices.Rejected(id);
+            var result = await _OPratorAppServices.Rejected(id, cToken);
             if (result.IsSuccess)
             {
 
@@ -97,7 +97,7 @@ namespace App.EndPoint.MVC.Controllers
                 ViewBag.ErrorMessage = result.IsMessage;
 
             }
-            var Cars = _OPratorAppServices.GetList();
+            var Cars = await _OPratorAppServices.GetList(cToken);
             return View("ListCars", Cars);
         }
         public IActionResult Logout()

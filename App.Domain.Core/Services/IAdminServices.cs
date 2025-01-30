@@ -10,10 +10,10 @@ namespace App.Domain.Core.Services
 {
     public interface IAdminServices
     {
-        public Admin Login(string username, string password);
-        public List<GetListDto> GetList();
-        public CarOfUser GetById(int id);
-        public bool Confirmation(int id);
-        public bool Rejected(int id);
+        public Task<Admin> Login(string username, string password, CancellationToken cancellationToken);
+        public Task<List<GetListDto>> GetList(CancellationToken cancellationToken);
+        public Task<CarOfUser> GetById(int id, CancellationToken cancellationToken);
+        public Task<bool> Confirmation(int id, CancellationToken cancellationToken);
+        public Task<bool> Rejected(int id, CancellationToken cancellationToken);
     }
 }
