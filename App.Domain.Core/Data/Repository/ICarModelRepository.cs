@@ -9,11 +9,11 @@ namespace App.Domain.Core.Data.Repository
 {
     public interface ICarModelRepository
     {
-        public List<Model> CarModels();
-        public bool CreateModel(Model model);
-        public Model GetModelById(int id);
-        public bool DeleteModel(int id);
-        public bool UpdateModel(Model model);
-        public bool GetCModel(string modelTitle);
+        public Task<List<Model>> CarModels(CancellationToken cancellationToken);
+        public Task<bool> CreateModel(Model model, CancellationToken cancellationToken);
+        public Task<Model> GetModelById(int id, CancellationToken cancellationToken);
+        public Task<bool> DeleteModel(int id, CancellationToken cancellationToken);
+        public Task<bool> UpdateModel(Model model, CancellationToken cancellationToken);
+        public Task<bool> GetCModel(string modelTitle, CancellationToken cancellationToken);
     }
 }

@@ -17,24 +17,24 @@ namespace App.DomainServices.User
         {
             _UserRepository = userRepository;
         }
-        public bool CreateLogUserCar(LogTable logUserCar)
+        public async Task<bool> CreateLogUserCar(LogTable logUserCar, CancellationToken cancellationToken)
         {
-            return _UserRepository.CreateLogUserCar(logUserCar);
+            return await _UserRepository.CreateLogUserCar(logUserCar, cancellationToken);
         }
 
-        public bool CreateUserCar(CarOfUser carOfUser)
+        public async Task<bool> CreateUserCar(CarOfUser carOfUser, CancellationToken cancellationToken)
         {
-            return _UserRepository.CreateUserCar(carOfUser);
+            return await _UserRepository.CreateUserCar(carOfUser, cancellationToken);
         }
 
-        public CarOfUser GetByLicensePlateCar(string licensePlateCarId)
+        public async Task<CarOfUser> GetByLicensePlateCar(string licensePlateCarId, CancellationToken cancellationToken)
         {
-            return _UserRepository.GetByLicensePlateCar(licensePlateCarId);
+            return await _UserRepository.GetByLicensePlateCar(licensePlateCarId, cancellationToken);
         }
 
-        public bool GetStatus(string licensePlateCarId)
+        public async Task<bool> GetStatus(string licensePlateCarId, CancellationToken cancellationToken)
         {
-            return _UserRepository.GetStatus(licensePlateCarId);
+            return await _UserRepository.GetStatus(licensePlateCarId, cancellationToken);
         }
     }
 }

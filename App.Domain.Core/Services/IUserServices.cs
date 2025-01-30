@@ -9,9 +9,9 @@ namespace App.Domain.Core.Services
 {
     public interface IUserServices
     {
-        public CarOfUser GetByLicensePlateCar(string licensePlateCarId);
-        public bool CreateUserCar(CarOfUser carOfUser);
-        public bool GetStatus(string licensePlateCarId);
-        public bool CreateLogUserCar(LogTable logUserCar);
+        public Task<CarOfUser> GetByLicensePlateCar(string licensePlateCarId, CancellationToken cancellationToken);
+        public Task<bool> CreateUserCar(CarOfUser carOfUser, CancellationToken cancellationToken);
+        public Task<bool> GetStatus(string licensePlateCarId, CancellationToken cancellationToken);
+        public Task<bool> CreateLogUserCar(LogTable logUserCar, CancellationToken cancellationToken);
     }
 }

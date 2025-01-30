@@ -3,8 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\HW20-finish\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|solutionrelative:app.endpoint.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651CAACF-8D92-4A60-8E07-97700C88EA49}|App.Domain.AppService\\App.Domain.AppService.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.appservice\\carmodel\\carmodelappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651CAACF-8D92-4A60-8E07-97700C88EA49}|App.Domain.AppService\\App.Domain.AppService.csproj|solutionrelative:app.domain.appservice\\carmodel\\carmodelappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|solutionrelative:app.endpoint.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.mvc\\models\\usercarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|solutionrelative:app.endpoint.mvc\\models\\usercarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.mvc\\controllers\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|solutionrelative:app.endpoint.mvc\\controllers\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.mvc\\controllers\\carofusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28E01EA7-0FB9-46BF-A783-43F7A4DE5348}|App.EndPoint.MVC\\App.EndPoint.MVC.csproj|solutionrelative:app.endpoint.mvc\\controllers\\carofusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|solutionrelative:app.endpoint.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|solutionrelative:app.endpoint.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.api\\middelware\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|solutionrelative:app.endpoint.api\\middelware\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.api\\controllers\\carofusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|solutionrelative:app.endpoint.api\\controllers\\carofusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.endpoint.api\\controllers\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{984650F6-7803-493C-97A6-81CBA9159497}|App.EndPoint.Api\\App.EndPoint.Api.csproj|solutionrelative:app.endpoint.api\\controllers\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25652591-63BA-4ECF-B31F-11348FDAF1D9}|App.Infra.Data.SqlServer.Ef\\App.Infra.Data.SqlServer.Ef.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.infra.data.sqlserver.ef\\configurations\\modelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25652591-63BA-4ECF-B31F-11348FDAF1D9}|App.Infra.Data.SqlServer.Ef\\App.Infra.Data.SqlServer.Ef.csproj|solutionrelative:app.infra.data.sqlserver.ef\\configurations\\modelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDD1EAE-F072-4820-8622-0DB1D79BB669}|App.Infra.Data.Ef\\App.Infra.Data.Ef.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.infra.data.ef\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DDD1EAE-F072-4820-8622-0DB1D79BB669}|App.Infra.Data.Ef\\App.Infra.Data.Ef.csproj|solutionrelative:app.infra.data.ef\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDD1EAE-F072-4820-8622-0DB1D79BB669}|App.Infra.Data.Ef\\App.Infra.Data.Ef.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.infra.data.ef\\carmodel\\carmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DDD1EAE-F072-4820-8622-0DB1D79BB669}|App.Infra.Data.Ef\\App.Infra.Data.Ef.csproj|solutionrelative:app.infra.data.ef\\carmodel\\carmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DDD1EAE-F072-4820-8622-0DB1D79BB669}|App.Infra.Data.Ef\\App.Infra.Data.Ef.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.infra.data.ef\\admin\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DDD1EAE-F072-4820-8622-0DB1D79BB669}|App.Infra.Data.Ef\\App.Infra.Data.Ef.csproj|solutionrelative:app.infra.data.ef\\admin\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4802FC70-0FBB-461D-A9E4-C8EDAC73F3CD}|App.DomainServices\\App.DomainServices.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domainservices\\user\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4802FC70-0FBB-461D-A9E4-C8EDAC73F3CD}|App.DomainServices\\App.DomainServices.csproj|solutionrelative:app.domainservices\\user\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4802FC70-0FBB-461D-A9E4-C8EDAC73F3CD}|App.DomainServices\\App.DomainServices.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domainservices\\carmodel\\carmodelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4802FC70-0FBB-461D-A9E4-C8EDAC73F3CD}|App.DomainServices\\App.DomainServices.csproj|solutionrelative:app.domainservices\\carmodel\\carmodelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4802FC70-0FBB-461D-A9E4-C8EDAC73F3CD}|App.DomainServices\\App.DomainServices.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domainservices\\admin\\adminservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4802FC70-0FBB-461D-A9E4-C8EDAC73F3CD}|App.DomainServices\\App.DomainServices.csproj|solutionrelative:app.domainservices\\admin\\adminservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651CAACF-8D92-4A60-8E07-97700C88EA49}|App.Domain.AppService\\App.Domain.AppService.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.appservice\\user\\userappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651CAACF-8D92-4A60-8E07-97700C88EA49}|App.Domain.AppService\\App.Domain.AppService.csproj|solutionrelative:app.domain.appservice\\user\\userappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651CAACF-8D92-4A60-8E07-97700C88EA49}|App.Domain.AppService\\App.Domain.AppService.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.appservice\\admin\\adminappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651CAACF-8D92-4A60-8E07-97700C88EA49}|App.Domain.AppService\\App.Domain.AppService.csproj|solutionrelative:app.domain.appservice\\admin\\adminappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\services\\icarmodelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\services\\icarmodelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\services\\iadminservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\services\\iadminservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\data\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\data\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\data\\repository\\icarmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\data\\repository\\icarmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\data\\repository\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\data\\repository\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\appservices\\iuserappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\appservices\\iuserappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\appservices\\icarmodelappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\appservices\\icarmodelappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|c:\\users\\asus\\source\\repos\\hw20-finish\\app.domain.core\\appservices\\iadminappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E2AD7EB-2997-4F82-85DF-26DD55AAB393}|App.Domain.Core\\App.Domain.Core.csproj|solutionrelative:app.domain.core\\appservices\\iadminappservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 747,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +142,380 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Entities\\Admin.cs",
-              "RelativeDocumentMoniker": "App.Domain.Core\\Entities\\Admin.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Entities\\Admin.cs",
-              "RelativeToolTip": "App.Domain.Core\\Entities\\Admin.cs",
+              "DocumentIndex": 3,
+              "Title": "UserCarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Models\\UserCarViewModel.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.MVC\\Models\\UserCarViewModel.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Models\\UserCarViewModel.cs",
+              "RelativeToolTip": "App.EndPoint.MVC\\Models\\UserCarViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T15:31:19.889Z",
+              "WhenOpened": "2025-01-30T20:16:38.089Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "App.EndPoint.MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:16:27.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModelController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Controllers\\ModelController.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.MVC\\Controllers\\ModelController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Controllers\\ModelController.cs",
+              "RelativeToolTip": "App.EndPoint.MVC\\Controllers\\ModelController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:16:02.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarOfUserController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Controllers\\CarOfUserController.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.MVC\\Controllers\\CarOfUserController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Controllers\\CarOfUserController.cs",
+              "RelativeToolTip": "App.EndPoint.MVC\\Controllers\\CarOfUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:15:20.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.MVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.MVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "App.EndPoint.MVC\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:14:33.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\Program.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\Program.cs",
+              "RelativeToolTip": "App.EndPoint.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:13:54.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "App.EndPoint.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\appsettings.json",
+              "RelativeToolTip": "App.EndPoint.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-30T20:13:20.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiKeyMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\Middelware\\ApiKeyMiddleware.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.Api\\Middelware\\ApiKeyMiddleware.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\Middelware\\ApiKeyMiddleware.cs",
+              "RelativeToolTip": "App.EndPoint.Api\\Middelware\\ApiKeyMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:12:57.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarModelAppServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.AppService\\CarModel\\CarModelAppServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.AppService\\CarModel\\CarModelAppServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.AppService\\CarModel\\CarModelAppServices.cs",
+              "RelativeToolTip": "App.Domain.AppService\\CarModel\\CarModelAppServices.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAawC4AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:46:28.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarOfUserController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\Controllers\\CarOfUserController.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.Api\\Controllers\\CarOfUserController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\Controllers\\CarOfUserController.cs",
+              "RelativeToolTip": "App.EndPoint.Api\\Controllers\\CarOfUserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:09:00.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModelController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\Controllers\\ModelController.cs",
+              "RelativeDocumentMoniker": "App.EndPoint.Api\\Controllers\\ModelController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.EndPoint.Api\\Controllers\\ModelController.cs",
+              "RelativeToolTip": "App.EndPoint.Api\\Controllers\\ModelController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:09:04.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModelConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Infra.Data.SqlServer.Ef\\Configurations\\ModelConfiguration.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.SqlServer.Ef\\Configurations\\ModelConfiguration.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Infra.Data.SqlServer.Ef\\Configurations\\ModelConfiguration.cs",
+              "RelativeToolTip": "App.Infra.Data.SqlServer.Ef\\Configurations\\ModelConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:08:39.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Infra.Data.Ef\\User\\UserRepository.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.Ef\\User\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Infra.Data.Ef\\User\\UserRepository.cs",
+              "RelativeToolTip": "App.Infra.Data.Ef\\User\\UserRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:05:58.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Infra.Data.Ef\\CarModel\\CarModelRepository.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.Ef\\CarModel\\CarModelRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Infra.Data.Ef\\CarModel\\CarModelRepository.cs",
+              "RelativeToolTip": "App.Infra.Data.Ef\\CarModel\\CarModelRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T20:02:16.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Infra.Data.Ef\\Admin\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "App.Infra.Data.Ef\\Admin\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Infra.Data.Ef\\Admin\\AdminRepository.cs",
+              "RelativeToolTip": "App.Infra.Data.Ef\\Admin\\AdminRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwEIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:58:59.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.DomainServices\\User\\UserServices.cs",
+              "RelativeDocumentMoniker": "App.DomainServices\\User\\UserServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.DomainServices\\User\\UserServices.cs",
+              "RelativeToolTip": "App.DomainServices\\User\\UserServices.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:57:02.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CarModelServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.DomainServices\\CarModel\\CarModelServices.cs",
+              "RelativeDocumentMoniker": "App.DomainServices\\CarModel\\CarModelServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.DomainServices\\CarModel\\CarModelServices.cs",
+              "RelativeToolTip": "App.DomainServices\\CarModel\\CarModelServices.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:54:23.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.DomainServices\\Admin\\AdminServices.cs",
+              "RelativeDocumentMoniker": "App.DomainServices\\Admin\\AdminServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.DomainServices\\Admin\\AdminServices.cs",
+              "RelativeToolTip": "App.DomainServices\\Admin\\AdminServices.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:52:12.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserAppServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.AppService\\User\\UserAppServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.AppService\\User\\UserAppServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.AppService\\User\\UserAppServices.cs",
+              "RelativeToolTip": "App.Domain.AppService\\User\\UserAppServices.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowF0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:50:49.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAdminServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Services\\IAdminServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Services\\IAdminServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Services\\IAdminServices.cs",
+              "RelativeToolTip": "App.Domain.Core\\Services\\IAdminServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:37:06.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserAppServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\AppServices\\IUserAppServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\AppServices\\IUserAppServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\AppServices\\IUserAppServices.cs",
+              "RelativeToolTip": "App.Domain.Core\\AppServices\\IUserAppServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:35:08.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Data\\Repository\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Data\\Repository\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Data\\Repository\\IAdminRepository.cs",
+              "RelativeToolTip": "App.Domain.Core\\Data\\Repository\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:33:12.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICarModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Data\\Repository\\ICarModelRepository.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Data\\Repository\\ICarModelRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Data\\Repository\\ICarModelRepository.cs",
+              "RelativeToolTip": "App.Domain.Core\\Data\\Repository\\ICarModelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:31:47.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Data\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Data\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Data\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "App.Domain.Core\\Data\\Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:33:59.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICarModelServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Services\\ICarModelServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Services\\ICarModelServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Services\\ICarModelServices.cs",
+              "RelativeToolTip": "App.Domain.Core\\Services\\ICarModelServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:36:12.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Services\\IUserServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\Services\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\Services\\IUserServices.cs",
+              "RelativeToolTip": "App.Domain.Core\\Services\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:37:36.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminAppServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.AppService\\Admin\\AdminAppServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.AppService\\Admin\\AdminAppServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.AppService\\Admin\\AdminAppServices.cs",
+              "RelativeToolTip": "App.Domain.AppService\\Admin\\AdminAppServices.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:38:37.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICarModelAppServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\AppServices\\ICarModelAppServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\AppServices\\ICarModelAppServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\AppServices\\ICarModelAppServices.cs",
+              "RelativeToolTip": "App.Domain.Core\\AppServices\\ICarModelAppServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:34:46.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAdminAppServices.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\AppServices\\IAdminAppServices.cs",
+              "RelativeDocumentMoniker": "App.Domain.Core\\AppServices\\IAdminAppServices.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\HW20-finish\\App.Domain.Core\\AppServices\\IAdminAppServices.cs",
+              "RelativeToolTip": "App.Domain.Core\\AppServices\\IAdminAppServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:35:09.85Z",
+              "EditorCaption": ""
             }
           ]
         }

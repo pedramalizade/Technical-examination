@@ -18,28 +18,28 @@ namespace App.Infra.Data.Ef.User
         {
             _appDbContext = appDbContext;
         }
-        public bool CreateLogUserCar(LogTable logUserCar)
+        public async Task<bool> CreateLogUserCar(LogTable logUserCar, CancellationToken cancellationToken)
         {
-            _appDbContext.LogTables.Add(logUserCar);
-            _appDbContext.SaveChanges();
+           await _appDbContext.LogTables.AddAsync(logUserCar);
+            await _appDbContext.SaveChangesAsync();
             return true;
         }
 
-        public bool CreateUserCar(CarOfUser userCar)
+        public async Task<bool> CreateUserCar(CarOfUser userCar, CancellationToken cancellationToken)
         {
-            _appDbContext.CarOfUsers.Add(userCar);
-            _appDbContext.SaveChanges();
+            await _appDbContext.CarOfUsers.AddAsync(userCar);
+            await _appDbContext.SaveChangesAsync();
             return true;
         }
 
-        public CarOfUser GetByLicensePlateCar(string licensePlateCarId)
+        public async Task<CarOfUser> GetByLicensePlateCar(string licensePlateCarId, CancellationToken cancellationToken)
         {
-            return _appDbContext.CarOfUsers.AsNoTracking().FirstOrDefault(x => x.LicensePlateCar == licensePlateCarId);
+            return await _appDbContext.CarOfUsers.AsNoTracking().FirstOrDefaultAsync(x => x.LicensePlateCar == licensePlateCarId);
         }
 
-        public bool GetStatus(string licensePlateCarId)
+        public async Task<bool> GetStatus(string licensePlateCarId, CancellationToken cancellationToken)
         {
-            return _appDbContext.CarOfUsers.AsNoTracking().Any(x => x.LicensePlateCar == licensePlateCarId && x.Status == UserStatusCarEnum.aproved);
+            return await _appDbContext.CarOfUsers.AsNoTracking().AnyAsync(x => x.LicensePlateCar == licensePlateCarId && x.Status == UserStatusCarEnum.aproved);
         }
     }
 }

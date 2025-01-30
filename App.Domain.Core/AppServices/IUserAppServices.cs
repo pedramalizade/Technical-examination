@@ -10,7 +10,7 @@ namespace App.Domain.Core.AppServices
 {
     public interface IUserAppServices
     {
-        public Resultt CreateUserCar(CarOfUser carOfUser);
+        public Task<Resultt> CreateUserCar(CarOfUser carOfUser, CancellationToken cancellationToken);
 
     }
 }
