@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace App.Domain.Core.Confrig
 {
-    public class SiteSettings
+    public class SettingsSite
     {
         public ConnectionStrings ConnectionStrings { get; set; }
         public Limitation Limitation { get; set; }
+        public string ApiKey { get; set; }
     }
 }

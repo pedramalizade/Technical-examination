@@ -16,7 +16,7 @@ namespace App.Infra.Data.SqlServer.Ef.Configurations
             builder.HasKey(x => x.Id);
             builder.ToTable("Models");
             builder.Property(x => x.Title).HasMaxLength(100).IsRequired();
-            builder.HasMany(x => x.usercars)
+            builder.HasMany(x => x.carOfUsers)
               .WithOne(x => x.Model)
               .HasForeignKey(x => x.ModelId)
               .OnDelete(DeleteBehavior.NoAction);

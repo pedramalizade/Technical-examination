@@ -15,3 +15,4 @@ C:\Users\asus\source\repos\HW20-finish\App.Domain.AppService\obj\Debug\net9.0\Ap
 C:\Users\asus\source\repos\HW20-finish\App.Domain.AppService\obj\Debug\net9.0\refint\App.Domain.AppService.dll
 C:\Users\asus\source\repos\HW20-finish\App.Domain.AppService\obj\Debug\net9.0\App.Domain.AppService.pdb
 C:\Users\asus\source\repos\HW20-finish\App.Domain.AppService\obj\Debug\net9.0\ref\App.Domain.AppService.dll
+C:\Users\asus\source\repos\HW20-finish\App.Domain.AppService\obj\Debug\net9.0\App.Domain.AppService.sourcelink.json

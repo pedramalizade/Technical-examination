@@ -25,21 +25,21 @@ namespace App.Infra.Data.Ef.User
             return true;
         }
 
-        public bool CreateUserCar(UserCar userCar)
+        public bool CreateUserCar(CarOfUser userCar)
         {
-            _appDbContext.UserCars.Add(userCar);
+            _appDbContext.CarOfUsers.Add(userCar);
             _appDbContext.SaveChanges();
             return true;
         }
 
-        public UserCar GetByLicensePlateCar(string licensePlateCarId)
+        public CarOfUser GetByLicensePlateCar(string licensePlateCarId)
         {
-            return _appDbContext.UserCars.AsNoTracking().FirstOrDefault(x => x.LicensePlateCar == licensePlateCarId);
+            return _appDbContext.CarOfUsers.AsNoTracking().FirstOrDefault(x => x.LicensePlateCar == licensePlateCarId);
         }
 
         public bool GetStatus(string licensePlateCarId)
         {
-            return _appDbContext.UserCars.AsNoTracking().Any(x => x.LicensePlateCar == licensePlateCarId && x.Status == UserStatusCarEnum.aproved);
+            return _appDbContext.CarOfUsers.AsNoTracking().Any(x => x.LicensePlateCar == licensePlateCarId && x.Status == UserStatusCarEnum.aproved);
         }
     }
 }

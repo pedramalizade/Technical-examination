@@ -9,3 +9,4 @@ C:\Users\asus\source\repos\HW20-finish\App.Domain.Core\obj\Debug\net9.0\App.Doma
 C:\Users\asus\source\repos\HW20-finish\App.Domain.Core\obj\Debug\net9.0\refint\App.Domain.Core.dll
 C:\Users\asus\source\repos\HW20-finish\App.Domain.Core\obj\Debug\net9.0\App.Domain.Core.pdb
 C:\Users\asus\source\repos\HW20-finish\App.Domain.Core\obj\Debug\net9.0\ref\App.Domain.Core.dll
+C:\Users\asus\source\repos\HW20-finish\App.Domain.Core\obj\Debug\net9.0\App.Domain.Core.sourcelink.json

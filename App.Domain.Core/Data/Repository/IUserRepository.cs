@@ -9,9 +9,9 @@ namespace App.Domain.Core.Data.Repository
 {
     public interface IUserRepository
     {
-        public UserCar GetByLicensePlateCar(string licensePlateCarId);
+        public CarOfUser GetByLicensePlateCar(string licensePlateCarId);
         public bool GetStatus(string licensePlateCarId);
-        public bool CreateUserCar(UserCar userCar);
+        public bool CreateUserCar(CarOfUser carOfUser);
         public bool CreateLogUserCar(LogTable logUserCar);
     }
 }

@@ -13,3 +13,4 @@ C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.D
 C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\refint\App.DomainServices.dll
 C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.pdb
 C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\ref\App.DomainServices.dll
+C:\Users\asus\source\repos\HW20-finish\App.DomainServices\obj\Debug\net9.0\App.DomainServices.sourcelink.json

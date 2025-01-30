@@ -12,6 +12,6 @@ namespace App.Domain.Core.Entities
         public int Id { get; set; }
         [Required(ErrorMessage = "انتخاب مدل خودرو اجباری است")]
         public string Title { get; set; }
-        public List<UserCar> usercars { get; set; }
+        public List<CarOfUser>? carOfUsers { get; set; }
     }
 }

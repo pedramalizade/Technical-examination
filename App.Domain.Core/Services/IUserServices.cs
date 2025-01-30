@@ -9,8 +9,8 @@ namespace App.Domain.Core.Services
 {
     public interface IUserServices
     {
-        public UserCar GetByLicensePlateCar(string licensePlateCarId);
-        public bool CreateUserCar(UserCar userCar);
+        public CarOfUser GetByLicensePlateCar(string licensePlateCarId);
+        public bool CreateUserCar(CarOfUser carOfUser);
         public bool GetStatus(string licensePlateCarId);
         public bool CreateLogUserCar(LogTable logUserCar);
     }

@@ -22,12 +22,12 @@ namespace App.DomainServices.User
             return _UserRepository.CreateLogUserCar(logUserCar);
         }
 
-        public bool CreateUserCar(UserCar userCar)
+        public bool CreateUserCar(CarOfUser carOfUser)
         {
-            return _UserRepository.CreateUserCar(userCar);
+            return _UserRepository.CreateUserCar(carOfUser);
         }
 
-        public UserCar GetByLicensePlateCar(string licensePlateCarId)
+        public CarOfUser GetByLicensePlateCar(string licensePlateCarId)
         {
             return _UserRepository.GetByLicensePlateCar(licensePlateCarId);
         }

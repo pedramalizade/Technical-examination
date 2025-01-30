@@ -4,7 +4,7 @@ namespace App.EndPoint.MVC.Models
 {
     public class UserCarViewModel
     {
-        public UserCar CarModel { get; set; }
+        public CarOfUser CarModel { get; set; }
         public List<Model>? Models { get; set; }
     }
 }

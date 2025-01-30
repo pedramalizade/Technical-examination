@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace App.Infra.Data.SqlServer.Ef.Configurations
 {
-    public class UserConfiguration : IEntityTypeConfiguration<UserCar>
+    public class UserConfiguration : IEntityTypeConfiguration<CarOfUser>
     {
-        public void Configure(EntityTypeBuilder<UserCar> builder)
+        public void Configure(EntityTypeBuilder<CarOfUser> builder)
         {
 
             builder.HasKey(x => x.Id);
-            builder.ToTable("UserCars");
+            builder.ToTable("CarOfUsers");
             builder.Property(x => x.FirstName).HasMaxLength(50).IsRequired();
             builder.Property(x => x.LastName).HasMaxLength(50).IsRequired();
             builder.Property(x => x.Mobile).HasMaxLength(11).IsRequired();

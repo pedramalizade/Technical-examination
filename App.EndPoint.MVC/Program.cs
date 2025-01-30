@@ -21,8 +21,8 @@ namespace App.EndPoint.MVC
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            var siteSettings = builder.Configuration.GetSection(nameof(SiteSettings)).Get<SiteSettings>();
-            builder.Services.AddSingleton(siteSettings);
+            var settingsSite = builder.Configuration.GetSection(nameof(SettingsSite)).Get<SettingsSite>();
+            builder.Services.AddSingleton(settingsSite);
 
             builder.Services.AddControllersWithViews();
 
@@ -32,12 +32,12 @@ namespace App.EndPoint.MVC
             builder.Services.AddScoped<ICarModelAppServices, CarModelAppServices>();
             builder.Services.AddScoped<ICarModelServices, CarModelServices>();
             builder.Services.AddScoped<ICarModelRepository, CarModelRepository>();
-            builder.Services.AddScoped<IOPratorAppServices, OPratorAppServices>();
-            builder.Services.AddScoped<IOPratorServices, OPratorServices>();
-            builder.Services.AddScoped<IOPratorRepository, OPratorRepository>();
+            builder.Services.AddScoped<IAdminAppServices, AdminAppServices>();
+            builder.Services.AddScoped<IAdminServices, AdminServices>();
+            builder.Services.AddScoped<IAdminRepository, AdminRepository>();
 
             builder.Services.AddDbContext<Infra.Data.SqlServer.Ef.ApplicationDBContext.AppDbContext>(options =>
-                options.UseSqlServer(siteSettings.ConnectionStrings.SqlConnection));
+                options.UseSqlServer(settingsSite.ConnectionStrings.SqlConnection));
 
             builder.Services.AddDistributedMemoryCache();
             builder.Services.AddSession(options =>
